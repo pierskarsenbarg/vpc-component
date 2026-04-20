@@ -1,0 +1,17 @@
+{
+  "name": "vpc-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@pulumi/awsx": "^3.5.0",
+    "@pulumi/pulumi": "^3.231.0"
+  }
+}
