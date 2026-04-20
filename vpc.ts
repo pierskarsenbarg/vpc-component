@@ -33,7 +33,7 @@ export class Vpc extends pulumi.ComponentResource<VpcData> {
         ownerTag = args.ownerTag;
     }
 
-    const vpc = new awsx.ec2.Vpc("vpc", {
+    const vpc = new awsx.ec2.Vpc(`${name}`, {
       cidrBlock: "10.0.0.0/16",
       subnetSpecs: [
         {
